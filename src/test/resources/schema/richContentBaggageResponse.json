@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "baggage_pre_booking": {
+      "type": "object",
+      "properties": {
+        "RUH-JED": {
+          "type": "object",
+          "properties": {
+            "XY": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "weight": {
+                      "type": "string"
+                    },
+                    "unit": {
+                      "type": "string"
+                    },
+                    "amount": {
+                      "type": "string"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "weight",
+                    "unit",
+                    "amount",
+                    "currency"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "weight": {
+                      "type": "string"
+                    },
+                    "unit": {
+                      "type": "string"
+                    },
+                    "amount": {
+                      "type": "string"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "weight",
+                    "unit",
+                    "amount",
+                    "currency"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "weight": {
+                      "type": "string"
+                    },
+                    "unit": {
+                      "type": "string"
+                    },
+                    "amount": {
+                      "type": "string"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "weight",
+                    "unit",
+                    "amount",
+                    "currency"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "XY"
+          ]
+        }
+      },
+      "required": [
+        "RUH-JED"
+      ]
+    }
+  },
+  "required": [
+    "baggage_pre_booking"
+  ]
+}

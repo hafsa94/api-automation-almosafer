@@ -1,0 +1,22 @@
+{
+  "leg": [
+    {
+      "originId": "RUH",
+      "destinationId": "JED",
+      "departureFrom": "2022-10-19",
+      "departureTo": "2022-10-21"
+    }
+  ],
+  "cabin": "Economy",
+  "pax": {
+    "adult": 1,
+    "child": 0,
+    "infant": 0
+  },
+  "stops": [
+    0
+  ],
+  "airline": [
+    "SV"
+  ]
+}

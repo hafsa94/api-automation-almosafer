@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "airline_refund": {
+      "type": "object",
+      "properties": {
+        "F3": {
+          "type": "object",
+          "properties": {
+            "airline_name": {
+              "type": "string"
+            },
+            "selected_metrics": {
+              "type": "string"
+            },
+            "percentage_of_total": {
+              "type": "string"
+            },
+            "tf": {
+              "type": "string"
+            },
+            "one": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "airline_name",
+            "selected_metrics",
+            "percentage_of_total",
+            "tf",
+            "one"
+          ]
+        },
+        "SV": {
+          "type": "object",
+          "properties": {
+            "airline_name": {
+              "type": "string"
+            },
+            "selected_metrics": {
+              "type": "string"
+            },
+            "percentage_of_total": {
+              "type": "string"
+            },
+            "gds": {
+              "type": "string"
+            },
+            "tp": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "airline_name",
+            "selected_metrics",
+            "percentage_of_total",
+            "gds",
+            "tp"
+          ]
+        },
+        "X1": {
+          "type": "object",
+          "properties": {
+            "airline_name": {
+              "type": "string"
+            },
+            "selected_metrics": {
+              "type": "string"
+            },
+            "percentage_of_total": {
+              "type": "string"
+            },
+            "gds": {
+              "type": "string"
+            },
+            "tp": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "airline_name",
+            "selected_metrics",
+            "percentage_of_total",
+            "gds",
+            "tp"
+          ]
+        },
+        "XY": {
+          "type": "object",
+          "properties": {
+            "airline_name": {
+              "type": "string"
+            },
+            "selected_metrics": {
+              "type": "string"
+            },
+            "percentage_of_total": {
+              "type": "string"
+            },
+            "gds": {
+              "type": "string"
+            },
+            "tf": {
+              "type": "string"
+            },
+            "one": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "airline_name",
+            "selected_metrics",
+            "percentage_of_total",
+            "gds",
+            "tf",
+            "one"
+          ]
+        }
+      },
+      "required": [
+        "F3",
+        "SV",
+        "X1",
+        "XY"
+      ]
+    }
+  },
+  "required": [
+    "airline_refund"
+  ]
+}

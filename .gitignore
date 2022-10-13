@@ -1,0 +1,10 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+target
+.idea/*
+.dat.nosync0b5a.4XyxVq
+MAF.txt
+*.iml
+*.DS_Store
+*.png
